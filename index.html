@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link href="styles.css" rel="stylesheet">
+</head>
+  <!-- Navbar -->
+  <nav class="bg-gray-800 p-4 text-white">
+    <div class="container mx-auto flex justify-between items-center">
+        <h1 class="text-3xl font-bold">Eroo Video Editor</h1>
+        <ul class="flex space-x-4">
+            <li><a href="#about" class="hover:underline ">About</a></li>
+            <li><a href="#portfolio" class="hover:underline">Portfolio</a></li>
+            <li><a href="#contact" class="hover:underline">Contact</a></li>
+        </ul>
+    </div>
+</nav>
+<!-- Hero Section -->
+<header class="bg-blue-500 text-white text-center py-16">
+    <div class="container mx-auto">
+        <img src="Eroo.jpg" alt="Profile Picture" class="w-32 h-32 rounded-full mx-auto mb-4">
+        <h1 class="text-4xl font-bold mb-4">Hi, I'm a Video Editor</h1>
+        <p class="text-xl">Bringing your vision to life with stunning videos</p>
+        <div class="mt-8 flex justify-center space-x-4 items-center ">
+            <a href="https://www.instagram.com/erenylotfy_/" target="_blank" referrerpolicy="no-referrer" class="text-xl font-bold display-inline-block bg-blue-700 px-6 py-3 rounded-lg  text-white hover:bg-gray-800">Instagram</a>
+            <a href="https://www.facebook.com/ErOoLotfy/" target="_blank" referrerpolicy="no-referrer" class="text-xl font-bold display-inline-block bg-blue-700 px-6 py-3 rounded-lg text-white hover:bg-gray-800">Facebook</a>
+
+        </div>
+    </div>
+</header>
+    <!-- About Section -->
+    <section id="about" class="py-16">
+        <div class="container mx-auto px-20 py-16">
+            <h2 class="text-3xl font-bold mb-20 text-center">About Me</h2>
+            <p class="text-lg text-center shadow-lg p-12">As a dedicated video editor, I transform raw footage into captivating stories. With expertise in Adobe Premiere Pro I deliver high-quality content across various genres. Let’s create something amazing together!.</p>
+        </div>
+    </section>
+
+    <section id="portfolio" class="py-16  bg-gray-200">
+        <div class="container mx-auto px-20 py-16">
+            <h2 class="text-3xl font-bold mb-20 text-center ">Projects</h2>
+            
+            <!-- Tabs for categories -->
+            <div class="mb-8">
+                <ul class="flex space-x-4  justify-center">
+                    <li><button data-category="Commercial" class="tab-button py-2 px-4 bg-blue-500 hover:bg-blue-700 text-white rounded">Commercial</button></li>
+                    <li><button data-category="Content" class="tab-button py-2 px-4 bg-blue-500 hover:bg-blue-700 text-white rounded">Content</button></li>
+                    <li><button data-category="Events" class="tab-button py-2 px-4 bg-blue-500 hover:bg-blue-700 text-white rounded">Events</button></li>
+                    <li><button data-category="Wedding" class="tab-button py-2 px-4 bg-blue-500 hover:bg-blue-700 text-white rounded">Wedding</button></li>
+                </ul>
+            </div>
+            
+            <!-- Portfolio items -->
+            <div id="portfolio-videos" class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- Video items will be injected here by JavaScript -->
+            </div>
+        </div>
+    </section>
+    
+    </section>
+
+    <section id="contact" class="py-16">
+        <div class="container mx-auto px-20 py-16">
+            <h2 class="text-3xl font-bold mb-10 text-center">Contact Me</h2>
+            <div class="bg-gray-100 p-8 rounded-lg">
+                <p class="mb-4">Feel free to reach out to me through the following:</p>
+                <p class="text-lg">Email: <a href="mailto:kerolosmorkos1124@gmail.com" class="text-blue-600 hover:underline">kerolosmorkos1124@gmail.com</a></p>
+                <p class="text-lg">Phone: <a href="tel:+201288232556" class="text-blue-600 hover:underline">01208311480</a></p>
+            </div>
+        </div>
+    </section>
+
+       <!-- Footer -->
+       <footer class="bg-gray-800 text-white text-center py-4">
+        <p>&copy; 2024 Eroo's Portfolio. Maked by <a href="mailto:erenylotfy203@gmail.com" class="text-blue-600 font-bold hover:underline">kerolos Morkos</a>.</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
