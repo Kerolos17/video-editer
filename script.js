@@ -15,7 +15,7 @@ document.addEventListener("DOMContentLoaded", function() {
                     videoItem.classList.add('video-item', 'relative', 'thumbnail');
                     videoItem.innerHTML = `
                         <div class="video-container ">
-                            <iframe width="460" height="315" 
+                            <iframe width="360" height="315" 
                                 src="https://www.youtube.com/embed/${video.youtubeId}?autoplay=1" 
                                 frameborder="0" 
                                 allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
