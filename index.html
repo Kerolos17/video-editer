@@ -7,12 +7,11 @@
     <link href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.2.19/tailwind.min.css" rel="stylesheet">
 </head>
 <body class="bg-gray-900 text-white">
-
     <!-- Navbar -->
     <nav class="bg-gray-800 p-4">
         <div class="container mx-auto flex justify-between items-center">
-            <a href="#" class="text-xl font-bold">Eroo Video Editor</a>
-            <ul class="flex space-x-4">
+            <a href="#" class="text-lg  font-bold">Eroo Video Editor</a>
+            <ul class="flex gap-4">
                 <li><a href="#about" class="hover:text-blue-500">About</a></li>
                 <li><a href="#portfolio" class="hover:text-blue-500">Portfolio</a></li>
                 <li><a href="#contact" class="hover:text-blue-500">Contact</a></li>
@@ -40,13 +39,13 @@
     <!-- Portfolio Section -->
     <section id="portfolio" class="container mx-auto py-16">
         <h2 class="text-3xl font-bold text-center mb-8">Portfolio</h2>
-        <div class="flex justify-center mb-8">
+        <div class="flex flex-wrap justify-center items-center gap-4">
             <button class="tab-button bg-gray-700 text-white py-2 px-4 mx-2 rounded" data-category="Commercial">Commercial</button>
             <button class="tab-button bg-gray-700 text-white py-2 px-4 mx-2 rounded" data-category="Content">Content</button>
             <button class="tab-button bg-gray-700 text-white py-2 px-4 mx-2 rounded" data-category="Events">Events</button>
             <button class="tab-button bg-gray-700 text-white py-2 px-4 mx-2 rounded" data-category="Wedding">Wedding</button>
         </div>
-        <div id="portfolio-videos" class="flex flex-wrap justify-center gap-4 py-8  "></div>
+        <div id="portfolio-videos" class="flex flex-wrap justify-center gap-4 py-16"></div>
     </section>
 
     <!-- Contact Section -->
