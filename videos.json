@@ -2,32 +2,32 @@
     "Commercial": [
         {
             "title": "Commercial Video 1",
-            "src": "images/Commercial/winter4k.mp4",
+            "youtubeId": "dqbgpB_GfdU?si=VHlMXu-CKkw5zWo3",
             "thumbnail": "images/Commercial/winter.png"
         },
         {
             "title": "Commercial Video 2",
-            "src": "images/Commercial/intromrRaoof2.mp4",
+            "youtubeId": "iHB09aULrbI",
             "thumbnail": "images/Commercial/intro mr Raoof.png"
         },
         {
             "title": "Commercial Video 3",
-            "src": "images/Commercial/fit90proj.mp4",
+            "youtubeId": "CSw1c-PdNNo",
             "thumbnail": "images/Commercial/fit 90.png"
         }, 
         {
             "title": "Commercial Video 4",
-            "src": "images/Commercial/KickBoxing .mp4",
+            "youtubeId": "images/Commercial/KickBoxing .mp4",
             "thumbnail": "images/Commercial/KickBoxing.png"
         },        
         {
             "title": "Commercial Video 5",
-            "src": "images/Commercial/TEASER.mp4",
+            "youtubeId": "shorts/XySR1rylRus?feature=share",
             "thumbnail": "images/Commercial/TEASER.png"
         },
         {
             "title": "Commercial Video 6",
-            "src": "images/Commercial/ASMYN.mp4",
+            "youtubeId": "images/Commercial/ASMYN.mp4",
             "thumbnail": "images/Commercial/ASMYN .png"
         }
 
@@ -35,111 +35,111 @@
     "Content": [
         {
             "title": "Content Video 1",
-            "src": "images/content/fit content final.mp4",
+            "youtubeId": "images/content/fit content final.mp4",
             "thumbnail": "images/content/fit.png"
         },
         {
             "title": "Content Video 2",
-            "src": "images/content/Oz Belal Final r 1 .mp4",
+            "youtubeId": "images/content/Oz Belal Final r 1 .mp4",
             "thumbnail": "images/content/oz.png"
         },
         {
             "title": "Content Video 2",
-            "src": "images/content/Seif content .mp4",
+            "youtubeId": "images/content/Seif content .mp4",
             "thumbnail": "images/content/Seif.png"
         }
     ],
     "Events": [
         {
             "title": "Events Video 1",
-            "src": "images/Event/15.9_1.mp4",
+            "youtubeId": "images/Event/15.9_1.mp4",
             "thumbnail": "images/Event/15.9.png"
         },
         {
             "title": "Events Video 2",
-            "src": "images/Event/حفلة ثانوي عام ٢٠٢٣ dreamic.mp4",
+            "youtubeId": "images/Event/حفلة ثانوي عام ٢٠٢٣ dreamic.mp4",
             "thumbnail": "images/Event/حفلة ثانوي عام.png"
         },
         {
             "title": "Events Video 3",
-            "src": "images/Event/Alex runners 2-12-2022.mp4",
+            "youtubeId": "images/Event/Alex runners 2-12-2022.mp4",
             "thumbnail": "images/Event/Alex runners.png"
         },
         {
             "title": "Events Video 4",
-            "src": "images/Event/alex runners 1.mp4",
+            "youtubeId": "shorts/vCRxDhV3BGo?feature=share",
             "thumbnail": "images/Event/alex runners 1.png"
         },
         {
             "title": "Events Video 5",
-            "src": "images/Event/Sparkle Event reel.mp4",
+            "youtubeId": "images/Event/Sparkle Event reel.mp4",
             "thumbnail": "images/Event/Sparkle.png"
         },
         {
             "title": "Events Video 6",
-            "src": "images/Event/alex runners 2.mp4",
+            "youtubeId": "images/Event/alex runners 2.mp4",
             "thumbnail": "images/Event/alex runners 2.png"
         }
     ],
     "Wedding": [
         {
             "title": "Wedding Video 1",
-            "src": "images/Wedding/2-3reel .mp4",
+            "youtubeId": "XLsGveS04lU",
             "thumbnail": "images/Wedding/2-3.png"
         },
         {
             "title": "Wedding Video 2",
-            "src": "images/Wedding/4-1 reel 2 1080 .mp4",
+            "youtubeId": "d-VuPMm-iEU",
             "thumbnail": "images/Wedding/4-1 reel 2.jpg"
         },
         {
             "title": "Wedding Video 3",
-            "src": "images/Wedding/6-6 reel .mp4",
+            "youtubeId": "images/Wedding/6-6 reel .mp4",
             "thumbnail": "images/Wedding/6-6 reel.jpg"
         },
         {
             "title": "Wedding Video 4",
-            "src": "images/Wedding/10-5-2024 reel .mp4",
+            "youtubeId": "images/Wedding/10-5-2024 reel .mp4",
             "thumbnail": "images/Wedding/10-5.jpg"
         },
         {
             "title": "Wedding Video 5",
-            "src": "images/Wedding/4-1 reel.mp4",
+            "youtubeId": "images/Wedding/4-1 reel.mp4",
             "thumbnail": "images/Wedding/4-1 reel.png"
         },
         {
             "title": "Wedding Video 6",
-            "src": "images/Wedding/20-5 reel .mp4",
+            "youtubeId": "images/Wedding/20-5 reel .mp4",
             "thumbnail": "images/Wedding/20-5 reel.png"
         },
         {
             "title": "Wedding Video 7",
-            "src": "images/Wedding/20-6-2024 final.mp4",
+            "youtubeId": "images/Wedding/20-6-2024 final.mp4",
             "thumbnail": "images/Wedding/20-6.jpg"
         },
         {
             "title": "Wedding Video 8",
-            "src": "images/Wedding/20-11-2022.mp4",
+            "youtubeId": "images/Wedding/20-11-2022.mp4",
             "thumbnail": "images/Wedding/20-11-2022.jpg"
         },
         {
             "title": "Wedding Video 9",
-            "src": "images/Wedding/22-4 reel .mp4",
+            "youtubeId": "images/Wedding/22-4 reel .mp4",
             "thumbnail": "images/Wedding/22-4 reel.png"
         },
         {
             "title": "Wedding Video 10",
-            "src": "images/Wedding/22-6 reel .mp4",
+            "youtubeId": "images/Wedding/22-6 reel .mp4",
             "thumbnail": "images/Wedding/22-6.jpg"
         },
         {
             "title": "Wedding Video 11",
-            "src": "images/Wedding/26-5-2024.mp4",
+            "youtubeId": "images/Wedding/26-5-2024.mp4",
             "thumbnail": "images/Wedding/26-5.png"
         },
         {
             "title": "Wedding Video 12",
-            "src": "images/Wedding/29-1 reel .mp4",
+            "youtubeId": "images/Wedding/29-1 reel .mp4",
             "thumbnail": "images/Wedding/29-1.png"
         }
     ]

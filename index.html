@@ -3,80 +3,65 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio</title>
-    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
-    <link href="styles.css" rel="stylesheet">
+    <title>Video Portfolio</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.2.19/tailwind.min.css" rel="stylesheet">
 </head>
-  <!-- Navbar -->
-  <nav class="bg-gray-800 p-4 text-white">
-    <div class="container mx-auto flex justify-between items-center">
-        <h1 class="text-lg font-bold">Eroo Video Editor</h1>
-        <ul class="flex space-x-3">
-            <li><a href="#about" class="hover:underline ">About</a></li>
-            <li><a href="#portfolio" class="hover:underline">Portfolio</a></li>
-            <li><a href="#contact" class="hover:underline">Contact</a></li>
-        </ul>
-    </div>
-</nav>
-<!-- Hero Section -->
-<header class="bg-blue-500 text-white text-center py-16">
-    <div class="container mx-auto">
-        <img src="images/Eroo.jpg" alt="Profile Picture" class="w-32 h-32 rounded-full mx-auto mb-4">
-        <h1 class="text-4xl font-bold mb-4">Hi, I'm a Video Editor</h1>
-        <p class="text-xl">Bringing your vision to life with stunning videos</p>
-        <div class="mt-8 flex justify-center space-x-4 items-center ">
-<a href="https://www.instagram.com/erenylotfy_/" target="_blank" rel="noopener noreferrer" class="text-xl font-bold display-inline-block bg-blue-700 px-6 py-3 rounded-lg  text-white hover:bg-gray-800">Instagram</a>
+<body class="bg-gray-900 text-white">
 
-            <a href="https://www.facebook.com/ErOoLotfy/" target="_blank" rel="noopener noreferrer" class="text-xl font-bold display-inline-block bg-blue-700 px-6 py-3 rounded-lg text-white hover:bg-gray-800">Facebook</a>
-
+    <!-- Navbar -->
+    <nav class="bg-gray-800 p-4">
+        <div class="container mx-auto flex justify-between items-center">
+            <a href="#" class="text-xl font-bold">Eroo Video Editor</a>
+            <ul class="flex space-x-4">
+                <li><a href="#about" class="hover:text-blue-500">About</a></li>
+                <li><a href="#portfolio" class="hover:text-blue-500">Portfolio</a></li>
+                <li><a href="#contact" class="hover:text-blue-500">Contact</a></li>
+            </ul>
         </div>
-    </div>
-</header>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="text-center py-16">
+        <img src="images/Eroo.jpg" alt="Profile" class="mx-auto rounded-full w-48 h-48">
+        <h1 class="text-4xl font-bold mt-4">Hello, I'm a Video Editor</h1>
+        <p class="mt-2 text-lg">Crafting Stories Through Visuals</p>
+        <div class="mt-4">
+            <a href="https://www.instagram.com/erenylotfy_/" class="text-blue-500 hover:underline">Instagram</a> |
+            <a href="https://www.facebook.com/ErOoLotfy/" class="text-blue-500 hover:underline">Facebook</a>
+        </div>
+    </section>
+
     <!-- About Section -->
-    <section id="about" class="py-16">
-        <div class="container mx-auto  px-10 py-16">
-            <h2 class="text-2xl font-bold mb-20 text-center">About Me</h2>
-            <p class="text-l text-center  shadow-lg p-6">As a dedicated video editor, I transform raw footage into captivating stories. With expertise in Adobe Premiere Pro I deliver high-quality content across various genres. Let’s create something amazing together!.</p>
-        </div>
-    </section>
-    <section id="portfolio" class="py-16  bg-gray-200">
-        <div class="container mx-auto px-20 py-16">
-            <h2 class="text-2xl font-bold mb-20 text-center ">Projects</h2>
-            
-            <!-- Tabs for categories -->
-            <div class="mb-8">
-                <ul class="container flex gap-4 items-center justify-center flex-wrap  mx-auto ">
-                    <li><button data-category="Commercial" class="tab-button py-2 px-4 bg-blue-500 hover:bg-blue-700 text-white rounded">Commercial</button></li>
-                    <li><button data-category="Content" class="tab-button py-2 px-4 bg-blue-500 hover:bg-blue-700 text-white rounded">Content</button></li>
-                    <li><button data-category="Events" class="tab-button py-2 px-4 bg-blue-500 hover:bg-blue-700 text-white rounded">Events</button></li>
-                    <li><button data-category="Wedding" class="tab-button py-2 px-4 bg-blue-500 hover:bg-blue-700 text-white rounded">Wedding</button></li>
-                </ul>
-            </div>
-            
-            <!-- Portfolio items -->
-            <div id="portfolio-videos" class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
-                <!-- Video items will be injected here by JavaScript -->
-            </div>
-        </div>
-    </section>
-    
+    <section id="about" class="container mx-auto py-16">
+        <h2 class="text-3xl font-bold text-center mb-8">About Me</h2>
+        <p class="text-lg text-center max-w-2xl mx-auto">I am a passionate video editor with a knack for storytelling. My work spans various genres, including commercial, content creation, events, and weddings. Let's create something amazing together!</p>
     </section>
 
-    <section id="contact" class="py-16">
-        <div class="container mx-auto px-12 ">
-            <h2 class="text-2xl font-bold mb-10 text-center">Contact Me</h2>
-            <div class="container mx-auto bg-gray-100 py-4 px-4 rounded-lg">
-                <!-- <p class="mb-4">Feel free to reach out to me through the following:</p> -->
-                <p class="text-lg mb-4 text-center ">Email: <a href="mailto:erenylotfy203@gmail.com" class="text-blue-600 hover:underline">Ereny Lotfy</a></p>
-                <p class="text-lg text-center ">Phone: <a href="tel:+201288232556" class="text-blue-600 hover:underline">01288232556</a></p>
-            </div>
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="container mx-auto py-16">
+        <h2 class="text-3xl font-bold text-center mb-8">Portfolio</h2>
+        <div class="flex justify-center mb-8">
+            <button class="tab-button bg-gray-700 text-white py-2 px-4 mx-2 rounded" data-category="Commercial">Commercial</button>
+            <button class="tab-button bg-gray-700 text-white py-2 px-4 mx-2 rounded" data-category="Content">Content</button>
+            <button class="tab-button bg-gray-700 text-white py-2 px-4 mx-2 rounded" data-category="Events">Events</button>
+            <button class="tab-button bg-gray-700 text-white py-2 px-4 mx-2 rounded" data-category="Wedding">Wedding</button>
         </div>
+        <div id="portfolio-videos" class="flex flex-wrap justify-center gap-4 py-8  "></div>
     </section>
 
-       <!-- Footer -->
-       <footer class="bg-gray-800 text-white text-center py-4">
-        <p>&copy; 2024 Eroo's Portfolio. Maked by <a href="mailto:erenylotfy203@gmail.com" class="text-blue-600 font-bold hover:underline">kerolos Morkos</a>.</p>
+    <!-- Contact Section -->
+    <section id="contact" class="container mx-auto py-16">
+        <h2 class="text-3xl font-bold text-center mb-8">Contact Me</h2>
+        <p class="text-lg text-center max-w-2xl mx-auto">For inquiries, please contact me at <a href="mailto:erenylotfy203@gmail.com" class="text-blue-500 hover:underline">erenylotfy203@gmail.com</a> or call <a href="tel:+201288232556" class="text-blue-500 hover:underline">01288232556</a>.</p>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-800 p-4 text-center">
+        <p>&copy; 2024 Eroo Video Editor. Made by <a href="mailto:kerolosmorkos1124@gmail.com" class="text-blue-500 font-bold hover:underline">Kerolos Morkos</a></p>
     </footer>
+    
+
+    <!-- Linking the JavaScript file -->
     <script src="script.js"></script>
 </body>
 </html>
