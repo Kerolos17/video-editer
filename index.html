@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Video Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="styles.css">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.2.19/tailwind.min.css" rel="stylesheet">
 </head>
@@ -25,23 +26,22 @@
         <img src="images/Eroo.jpg" alt="Profile" class="mx-auto rounded-full w-48 h-48">
         <h1 class="text-4xl font-bold mt-4">Hello, I'm a Video Editor</h1>
         <p class="mt-2 text-lg">Crafting Stories Through Visuals</p>
-        <div class="mt-4">
-            <a href="https://www.instagram.com/erenylotfy_/" class="text-blue-500 hover:underline">Instagram</a> |
-            <a href="https://www.facebook.com/ErOoLotfy/" class="text-blue-500 hover:underline">Facebook</a>
+        <div class="mt-4 text-center">
+            <a href="https://www.instagram.com/erenylotfy_/" class="text-white text-center p-2 rounded bg-blue-700  hover:bg-gray-700 "><i class="fa-brands fa-instagram"></i> <span class="mr-2">Instagram</span></a>
         </div>
     </section>
 
     <!-- About Section -->
     <section id="about" class="container mx-auto py-16">
         <h2 class="text-3xl font-bold text-center mb-8">About Me</h2>
-        <p class="text-lg text-center max-w-2xl mx-auto px-10">I am a passionate video editor with a knack for storytelling. My work spans various genres, including commercial, content creation, events, and weddings. Let's create something amazing together!</p>
+        <p class="text-lg text-center max-w-2xl mx-auto px-10 lg-px-2">I am a passionate video editor with a knack for storytelling. My work spans various genres, including commercial, content creation, events, and weddings. Let's create something amazing together!</p>
     </section>
 
     <!-- Portfolio Section -->
     <section id="portfolio" class="container mx-auto py-16">
         <h2 class="text-3xl font-bold text-center mb-8">Portfolio</h2>
         <div class="flex flex-wrap justify-center items-center gap-4">
-            <button class="tab-button bg-gray-700 text-white py-2 px-4 rounded" data-category="Commercial">Commercial</button>
+            <button class="bg-blue-700 tab-button bg-gray-700 text-white py-2 px-4 rounded" data-category="Commercial">Commercial</button>
             <button class="tab-button bg-gray-700 text-white py-2 px-4 rounded" data-category="Content">Content</button>
             <button class="tab-button bg-gray-700 text-white py-2 px-4 rounded" data-category="Events">Events</button>
             <button class="tab-button bg-gray-700 text-white py-2 px-4 rounded" data-category="Wedding">Wedding</button>
@@ -65,3 +65,4 @@
     <script src="script.js"></script>
 </body>
 </html>
+

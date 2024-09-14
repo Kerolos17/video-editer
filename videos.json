@@ -17,17 +17,17 @@
         }, 
         {
             "title": "Commercial Video 4",
-            "youtubeId": "images/Commercial/KickBoxing .mp4",
+            "youtubeId": "7pJmsfIP5iI",
             "thumbnail": "images/Commercial/KickBoxing.png"
         },        
         {
             "title": "Commercial Video 5",
-            "youtubeId": "shorts/XySR1rylRus?feature=share",
+            "youtubeId": "XySR1rylRus",
             "thumbnail": "images/Commercial/TEASER.png"
         },
         {
             "title": "Commercial Video 6",
-            "youtubeId": "images/Commercial/ASMYN.mp4",
+            "youtubeId": "08L4sXhEKjU",
             "thumbnail": "images/Commercial/ASMYN .png"
         }
 
@@ -35,7 +35,7 @@
     "Content": [
         {
             "title": "Content Video 1",
-            "youtubeId": "images/content/fit content final.mp4",
+            "youtubeId": "kgoijsY9H-o",
             "thumbnail": "images/content/fit.png"
         },
         {
@@ -52,7 +52,7 @@
     "Events": [
         {
             "title": "Events Video 1",
-            "youtubeId": "images/Event/15.9_1.mp4",
+            "youtubeId": "b80nQjo6TzY",
             "thumbnail": "images/Event/15.9.png"
         },
         {
@@ -67,12 +67,13 @@
         },
         {
             "title": "Events Video 4",
-            "youtubeId": "shorts/vCRxDhV3BGo?feature=share",
+            "youtubeId": "b80nQjo6TzY",
             "thumbnail": "images/Event/alex runners 1.png"
+            
         },
         {
             "title": "Events Video 5",
-            "youtubeId": "images/Event/Sparkle Event reel.mp4",
+            "youtubeId": "vCRxDhV3BGo",
             "thumbnail": "images/Event/Sparkle.png"
         },
         {
@@ -94,17 +95,17 @@
         },
         {
             "title": "Wedding Video 3",
-            "youtubeId": "images/Wedding/6-6 reel .mp4",
+            "youtubeId": "TiK-LELuiWI",
             "thumbnail": "images/Wedding/6-6 reel.jpg"
         },
         {
             "title": "Wedding Video 4",
-            "youtubeId": "images/Wedding/10-5-2024 reel .mp4",
+            "youtubeId": "nnbnqhRe4tM",
             "thumbnail": "images/Wedding/10-5.jpg"
         },
         {
             "title": "Wedding Video 5",
-            "youtubeId": "images/Wedding/4-1 reel.mp4",
+            "youtubeId": "09NKSgb786Q",
             "thumbnail": "images/Wedding/4-1 reel.png"
         },
         {
