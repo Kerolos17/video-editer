@@ -13,7 +13,7 @@ document.addEventListener("DOMContentLoaded", function () {
             videoItem.innerHTML = `
                                               <div class="video-container ">
                               <iframe width="360" height="315" 
-                                  src="https://www.youtube.com/embed/${video.youtubeId}?autoplay=1" 
+                                  src="https://www.youtube.com/embed/${video.youtubeId}?autoplay=0" 
                                   frameborder="0" 
                                   allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
                                   allowfullscreen>
