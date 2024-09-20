@@ -62,10 +62,10 @@
         {
             "title": "Content Video 2",
             "youtubeId": "Qni2FVn0eJ0"
-        }
+        },
         {
             "title": "Content Video 2",
-            "youtubeId": "-NnACr8VMSA"
+            "youtubeId": "cpw-aKhT8lQ"
         }
     ],
     "Events": [
@@ -76,6 +76,10 @@
         {
             "title": "Events Video 2",
             "youtubeId": "E2c8bFEY52Y"
+        },
+        {
+            "title": "Events Video 3",
+            "youtubeId": "-NnACr8VMSA"
         },
         {
             "title": "Events Video 4",
